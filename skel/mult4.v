@@ -27,7 +27,7 @@ module mult4 (
 
 	wire [3:0] high_stage0;
 
-	assign high_stage0 = {3'b000, parial[3]} + carry_stage0;
+	assign high_stage0 = {3'b000, partial1[3]} + carry_stage0;
 	
 	wire [3:0] low_stage1;
 	wire carry_stage1;
