@@ -3,6 +3,7 @@ module mult4 (
 	     input [3:0] A, B,
 	     output [7:0] X
 	     );
+	
 	wire [3:0] partial0;
 	wire [3:0] partial1;
 	wire [3:0] partial2;
